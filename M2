@@ -1,0 +1,12 @@
+# Pseudo M2: Markov Distinction
+#
+# 0. Allow user to input a drawing
+# 1. Store/Generate a Markov Chain
+    - what kind of information should the chain save?
+    - if it saved coordinates, what would the initial
+      probability matrix look like?
+    - So, it needs to save multiple drawings to have probabilities
+        - i.e., the first location is 30/70 to be at coord1/coord2,
+          and the second location is 40/60 to be at coord1/coord2...
+# 2. Draw in turtle based on the Markov Chain
+#https://www.youtube.com/watch?v=OdDCsxfI8S0
